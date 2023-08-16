@@ -31,15 +31,15 @@ const questions = [
   let Inter = setInterval(()=>{
   if( questionNumber === questions.length){
     clearInterval(Inter)
-  // changeSelection()
+  changeSelection()
 
   }
    else{
   ques.innerHTML=questions[questionNumber].q
   questionNumber++
-  changeSelection()
+  
   }
-  },1000)
+  },3000)
 
    
   
